@@ -10,7 +10,7 @@ import '../styles/Navbar.css';
 
 const styles = {
   navbarStyle: {
-    background: 'green',
+    background: 'purple',
     justifyContent: 'flex-end',
   },
 };

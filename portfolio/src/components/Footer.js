@@ -13,7 +13,7 @@ const styles = {
         background: 'red',
     },
     headingStyle: {
-        fontSize: '100px',
+        fontSize: '60px',
     },
 };
 
@@ -22,7 +22,8 @@ const styles = {
 function Footer() {
     return (
         <footer style={styles.headerStyle} className="footer">
-            <h1 style={styles.headingStyle}>Welcome</h1>
+            <h1 style={styles.headingStyle}>Contact me to get your project rolling:</h1>
+
         </footer>
     );
 }

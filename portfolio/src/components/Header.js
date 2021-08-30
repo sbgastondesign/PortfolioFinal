@@ -9,11 +9,11 @@ import '../styles/Header.css';
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
 const styles = {
-  headerStyle: {
-    background: 'red',
-  },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: '40px',
+  },
+  headingTagStyle: {
+    fontSize: '30px',
   },
 };
 
@@ -22,7 +22,8 @@ const styles = {
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
+      <h1 style={styles.headingStyle}>Stephanie Gaston</h1>
+      <h3 style={styles.headingTagStyle}>Developer + Designer</h3>
     </header>
   );
 }
