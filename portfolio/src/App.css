@@ -70,35 +70,7 @@ h3 {
   text-transform: capitalize;
 }
 
-.bucket-input.edit {
-  border: 2px solid #149fff;
-}
 
-.bucket-button.edit {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
-  padding: 16px 22px;
-}
-
-.bucket-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-.bucket-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 4px auto;
-  color: #fff;
-  padding: 16px;
-  border-radius: 5px;
-  width: 90%;
-}
 
 .low {
   background: linear-gradient(
@@ -123,7 +95,7 @@ h3 {
     rgba(17, 122, 255, 1) 100%
   );
 }
-
+/* 
 .icons {
   display: flex;
   align-items: center;
@@ -193,4 +165,4 @@ h3 {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #5d0cff;
-}
+} */

@@ -24,9 +24,6 @@ function Section() {
       <p>
         Innovative visual design professional passionate about developing digital products with cutting edge design. Strengths in creativity, teamwork, and building projects from ideation to execution. Digital arts background coupled with strong technical skills and an eye for modern design principles, makes me a valuable addition to any team.
       </p>
-
-
-
     </section>
   );
 }

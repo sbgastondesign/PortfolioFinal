@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Section from "./components/Section";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <Section />
+      <Project />
       <Footer />
     </div>
   );
