@@ -1,6 +1,7 @@
 .navbar {
   background: #6a1b9a;
   height: 60px;
+  justify-content: "flex-end";
 }
 
 .navbar a {

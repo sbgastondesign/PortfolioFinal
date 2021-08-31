@@ -1,64 +1,66 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import battleship from '../assets/battleship.png';
-import budget from '../assets/transaction2.png';
-import fitness from '../assets/fitness-tracker.png';
-import schedule from '../assets/scheduler.png';
-// import '../styles/Project.css';
+import '../styles/Section.css';
+
 // By importing the Section.css file, it is added to the DOM whenever this component loads
+
 // We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
 // Unlike regular HTML, a JSX style property must be an object instead of a string
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
+
+const styles = {
+    sectionStyles: {
+        background: 'orange',
+    },
+};
+
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-
-function Project() {
+function Section() {
     return (
-        <Container className="project-section">
-            <Container>
-                <h1 className="project-heading">
-                    My Recent <strong className="purple">Works </strong>
-                </h1>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    <Col md={4} className="project-card">
-                        <Project
-                            img src={schedule} className="projectImage"
-                            title="Work Scheduler"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            link="https://sbgastondesign.github.io/WorkDayScheduler_Homework_5/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <Project
-                            img src={battleship} className="projectImage"
-                            title="Battleship"
-                            description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-                            link="https://sbgastondesign.github.io/battleshipproject/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <Project
-                            img src={budget} className="projectImage"
-                            title="Budget Tracker"
-                            description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-                            link="https://sbgastondesign.github.io/BudgetTracker/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <Project
-                            img src={fitness} className="projectImage"
-                            title="Fitness Tracker"
-                            description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-                            link="https://sbgastondesign.github.io/Fitness-Tracker/"
-                        />
-                    </Col>
-                </Row>
-            </Container>
-        </Container>
+        <section style={styles.sectionStyles} className="section">
+            <h2>Lorem Ipsum Dolor Sit Amet</h2>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+                quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                voluptas nulla pariatur?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+            </p>
+            <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                et quas molestias excepturi sint occaecati cupiditate non provident,
+                similique sunt in culpa qui officia deserunt mollitia animi, id est
+                laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+                distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+                cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+                quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
+                ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
+                earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                voluptatibus maiores alias consequatur aut perferendis doloribus
+                asperiores repellat.
+            </p>
+        </section>
     );
 }
-export default Project;
+
+export default Section;
