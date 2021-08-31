@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# React Portfolio
 
-You can use the [editor on GitHub](https://github.com/sbgastondesign/PortfolioFinal/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A place to share projects with potential employers as well as other developers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Goal:
 
-### Markdown
+Create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Issues:
 
-```markdown
-Syntax highlighted code block
+- Package.json issues took up time and forced me to re-create multiple repos.
+- Links not set up correctly at this time.
+- I tried multiple times to like to react-bootstrap in order to give it a more dynamic feel; however it made my app very messy so I again reverted back to a simplier working version.
+- I did install gh-pages in order to deploy properly, however when I went to test it earlier on in the design process it did not seem to be working correctly.
 
-# Header 1
-## Header 2
-### Header 3
+## Results:
 
-- Bulleted
-- List
+I was able to successfully built a react app using npx create-react-app. I was able to create some styling and create a template to fine tune in the future.
 
-1. Numbered
-2. List
+![React Portfolio.](/portfolio.png)
 
-**Bold** and _Italic_ and `Code` text
+### Github Link:
 
-[Link](url) and ![Image](src)
-```
+https://github.com/sbgastondesign/PortfolioFinal
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Github Pages Link:
 
-### Jekyll Themes
+https://github.com/sbgastondesign/PortfolioFinal
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sbgastondesign/PortfolioFinal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Future Updates:
 
-### Support or Contact
+- Revisit and add links.
+- New repo with fresh packages.
+- Better styling with react-bootstrap
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### License
+
+MIT License, Copyright (c) [2021] [StephanieGaston]
+
+---
+
+### Contact:
+
+- Email: sbgastondesign@gmail.com
+- Github: github.com/sbgastondesign
+- LinkedIn: "http://www.linkedin.com/stephanie-gaston-1067217a/"
