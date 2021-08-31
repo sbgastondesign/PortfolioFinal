@@ -4,9 +4,7 @@ import battleship from '../assets/battleship.png';
 import budget from '../assets/transaction2.png';
 import fitness from '../assets/fitness-tracker.png';
 import schedule from '../assets/scheduler.png';
-
-// import ProjectCard from "./ProjectCards";
-import '../styles/Project.css';
+// import '../styles/Project.css';
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 // We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
 // Unlike regular HTML, a JSX style property must be an object instead of a string
@@ -17,7 +15,7 @@ import '../styles/Project.css';
 
 function Project() {
     return (
-        <Container fluid className="project-section">
+        <Container className="project-section">
             <Container>
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Works </strong>

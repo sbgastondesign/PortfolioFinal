@@ -8,6 +8,7 @@ import '../styles/Navbar.css';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
+
 const styles = {
   navbarStyle: {
     background: 'purple',
@@ -21,6 +22,7 @@ function Navbar() {
   return (
     <nav style={styles.navbarStyle} className="navbar">
       <a href="/">Welcome</a>
+
     </nav>
   );
 }
