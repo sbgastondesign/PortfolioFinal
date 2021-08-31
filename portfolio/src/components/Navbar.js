@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import '../styles/Navbar.css'
 
@@ -15,16 +16,13 @@ const styles = {
 function Navbar() {
   return (
     <nav style={styles.navbarStyle} className="navbar">
-      {
-      <ul style={styles.ulStyle} className="navbar"
-<a href="/">Welcome></a>
-<a href="/Project">Projects</a>
-<a href="/Footer">Contact</a>
-<a href="/Resume">Project</a></nav >
+      <ul>
+        <li><a href="/">Welcome></a></li>
+        <li><a href="/Projects"></a></li>
+        <li><a href="/Footer"></a></li>
+        <li><a href="/Contact"></a></li></ul>
+    </nav>
   );
-}
-}
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
+};
 
 export default Navbar;
